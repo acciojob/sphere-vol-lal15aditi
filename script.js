@@ -6,7 +6,7 @@ function volume_sphere() {
   const vol = (4 / 3) * Math.PI * Math.pow(rad, 3);
 
   // Display the volume in the volume field
-  document.getElementById('volume').value = vol.toFixed(2); // Adjust to the desired decimal places
+  document.getElementById('volume').value = vol.toFixed(4); // Adjust to the desired decimal places
 } 
 
 // window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
